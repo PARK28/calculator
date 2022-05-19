@@ -1,9 +1,8 @@
 #include <stdio.h>
  
-int add(int, int);
+
 int sub(int, int);
-int div(int, int);
-int multi(int, int);
+
  
 int main(int argc, char* argv[])
 {
@@ -15,17 +14,9 @@ int main(int argc, char* argv[])
 	
 	switch (operator)
 	{
-		case '+':
-			result = add(number1, number2);
-			break;
+		
 		case '-':
 			result = sub(number1, number2);
-			break;
-		case '*':
-			result = multi(number1, number2);
-			break;
-		case '/':
-			result = div(number1, number2);
 			break;
 	}
 	
@@ -34,14 +25,6 @@ int main(int argc, char* argv[])
 	return 0;
 }
  
-int add(int number1, int number2)
-{
-	int sum;
-
-	sum = number1 + number2;
-
-	return sum;
-}
  
 int sub(int number1, int number2)
 {
@@ -49,14 +32,3 @@ int sub(int number1, int number2)
 	return 0;
 }
  
-int multi(int number1, int number2)
-{
-	//TODO implementation
-	return 0;
-}
- 
-int div(int number1, int number2)
-{
-	//TODO implementation
-	return 0;
-}
