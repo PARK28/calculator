@@ -53,7 +53,7 @@ int multi(int number1, int number2)
 {
 	int multi;
 
-	multi = number1 + number2;
+	multi = number1 * number2;
 
 	return multi;
 }
