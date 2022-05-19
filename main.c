@@ -36,10 +36,9 @@ int main(int argc, char* argv[])
  
 int add(int number1, int number2)
 {
+	//추가 1 2 3 4
 	int sum;
-
 	sum = number1 + number2;
-
 	return sum;
 }
  
